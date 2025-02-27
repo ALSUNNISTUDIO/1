@@ -63,14 +63,15 @@ body {
 }
 
 .profile h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+    color: var(--text-color);
 }
 
 .profile p {
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     color: var(--text-color);
     opacity: 0.8;
 }
@@ -141,8 +142,8 @@ body {
 }
 
 .social-link i {
-    margin: 0 1rem;
-    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    font-size: 1.3rem;
     filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
     position: relative;
     z-index: 2;
@@ -154,6 +155,8 @@ body {
     position: relative;
     z-index: 2;
     text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    font-size: 0.85rem;
+    font-weight: 600;
 }
 
 .social-link .en {
@@ -164,12 +167,14 @@ body {
     text-shadow: 0 1px 2px rgba(0,0,0,0.2);
     position: relative;
     z-index: 2;
+    font-size: 0.75rem;
+    font-weight: 400;
 }
 
 .x-icon {
     width: 1.5rem;
     height: 1.5rem;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     color: var(--text-color);
     filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
     position: relative;
@@ -392,26 +397,24 @@ body {
     }
     
     .profile h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     
     .profile p {
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
     
-    .social-link {
+    .social-link .ar {
         font-size: 0.8rem;
     }
     
-    .social-link i {
-        margin: 0 0.5rem;
-        font-size: 1.2rem;
+    .social-link .en {
+        font-size: 0.7rem;
     }
     
+    .social-link i,
     .x-icon {
-        width: 1.2rem;
-        height: 1.2rem;
-        margin: 0 0.5rem;
+        font-size: 1.2rem;
     }
     
     .social-link:hover {
